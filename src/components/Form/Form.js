@@ -100,7 +100,7 @@ class Form extends React.Component {
                   onChange={this.handleInputChange}
                   value={this.state.image}
                   name="image"
-                  label="obraz"
+                  label="image"
                 />
               ) : null}
               <Input

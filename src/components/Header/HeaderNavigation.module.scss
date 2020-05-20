@@ -1,6 +1,7 @@
 .wrapper {
   margin-left: 0px;
   padding: 0;
+  text-align: center
 }
 
 .navItem {
@@ -8,13 +9,16 @@
     margin-right: 50px;
     list-style: none;
     
+    
     &Link {
       text-decoration: none;
       color: #818181;
-      font-size: .9em;
+      font-size: 1.2em;
       
       &Active {
         font-weight: 700;
+        color: #fc5185;
+        
       }
     }
   }

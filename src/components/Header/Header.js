@@ -8,8 +8,9 @@ const Header = ({ openModalFn }) => (
   <header className={styles.wrapper}>
     <div  />
     <HeaderNavigation />
-    <Button onClick={openModalFn} secondary>dodaj</Button>
+  <Button onClick={openModalFn} secondary>dodaj</Button>
   </header>
+  
 );
 
 export default Header;
